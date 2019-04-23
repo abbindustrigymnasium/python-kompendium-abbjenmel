@@ -1,7 +1,7 @@
-print("Vad heter du?")
-namn=input()
-print("Hur gammal är du?")
-ålder=input()
+print("Vad heter du?")# ber användaren att mata in sitt namn
+namn=input()#sparar det inmatade värdet i variabeln namn
+print("Hur gammal är du?")#frågar användaren om dens namn
+ålder=input()#sparar det inmatade värdet i variabeln ålder
 if ålder=="1":
     print(namn+", enligt vårdguiden behöver du sova 14 timmar per natt")
 elif ålder=="2":
